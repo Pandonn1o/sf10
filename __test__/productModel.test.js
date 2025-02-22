@@ -1,5 +1,5 @@
-jest.mock("../config/db");
-const seq = require("../config/db");
+jest.mock("../config/__mocks__/db");
+const seq = require("../config/__mocks__/db");
 
 const Product = require("../models/productModel");
 

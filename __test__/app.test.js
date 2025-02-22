@@ -1,7 +1,7 @@
 const request = require("supertest");
 const app = require("../app");
 jest.mock("../config/__mocks__/db");
-const seq = require("../config/db");
+const seq = require("../config/__mocks__/db");
 const Product = require("../models/productModel");
 
 const baseURL = "/api/v1/products";

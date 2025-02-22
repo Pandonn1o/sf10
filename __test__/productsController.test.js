@@ -1,6 +1,6 @@
 const productsController = require("../controllers/productsController.js");
 jest.mock("../config/__mocks__/db");
-const seq = require("../config/db");
+const seq = require("../config/__mocks__/db");
 const Product = require("../models/productModel");
 
 describe("productsController", () => {
