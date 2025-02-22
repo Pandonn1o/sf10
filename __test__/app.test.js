@@ -1,6 +1,6 @@
 const request = require("supertest");
 const app = require("../app");
-jest.mock("../config/db");
+jest.mock("../config/__mocks__/db");
 const seq = require("../config/db");
 const Product = require("../models/productModel");
 
