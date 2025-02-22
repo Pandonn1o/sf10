@@ -1,7 +1,7 @@
-const { Sequelize, Model, DataTypes } = require('sequelize');
+const { DataTypes } = require('sequelize');
 const sequelize = require('../config/__mocks__/db.js');
 
-const Product = sequelize.define('Product', {
+module.exports = Product = sequelize.define("product", {
   id: {
     type: DataTypes.INTEGER,
     autoIncrement: true,
@@ -21,5 +21,5 @@ const Product = sequelize.define('Product', {
   timestamps: false
 });
 
-module.exports = Product;
+
 ///123123123213123123
